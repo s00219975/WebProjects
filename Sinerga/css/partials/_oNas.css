@@ -1,0 +1,266 @@
+.background-header {
+  background-color: #E8F5E6; }
+  .background-header .language {
+    padding-top: 30px;
+    padding-right: 30px; }
+    .background-header .language li {
+      float: left;
+      margin-right: 8px; }
+      .background-header .language li:active {
+        color: #203140; }
+      .background-header .language li a {
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 11px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #81888C; }
+        .background-header .language li a:hover {
+          color: #203140; }
+  .background-header .header {
+    background-color: #E8F5E6; }
+    @media screen and (max-width: 769px) {
+      .background-header .header .logo {
+        height: 55px;
+        width: 185px; } }
+    @media screen and (min-width: 1200px) {
+      .background-header .header .logo a img {
+        width: 40%; } }
+    .background-header .header .nav {
+      background-color: none;
+      padding-top: 40px; }
+      @media screen and (max-width: 769px) {
+        .background-header .header .nav {
+          width: 100%;
+          position: absolute;
+          padding-left: 0; } }
+      @media screen and (min-width: 992px) {
+        .background-header .header .nav {
+          padding-left: 70px; } }
+      .background-header .header .nav .navbar-inverse, .background-header .header .nav .navbar-toggle {
+        background-color: #E8F5E6;
+        border: none;
+        margin-bottom: 0;
+        min-height: 0; }
+        .background-header .header .nav .navbar-inverse .button-nav, .background-header .header .nav .navbar-toggle .button-nav {
+          position: absolute;
+          top: -34px;
+          right: 0;
+          display: block; }
+          @media screen and (min-width: 769px) {
+            .background-header .header .nav .navbar-inverse .button-nav, .background-header .header .nav .navbar-toggle .button-nav {
+              display: none; } }
+          .background-header .header .nav .navbar-inverse .button-nav span, .background-header .header .nav .navbar-toggle .button-nav span {
+            background-color: #292E33;
+            width: 28px;
+            height: 3px; }
+        .background-header .header .nav .navbar-inverse .navbar-collapse, .background-header .header .nav .navbar-toggle .navbar-collapse {
+          font-family: 'Fira Sans', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          font-size: 14px;
+          letter-spacing: 0.06em;
+          color: #81888C;
+          border-top: none;
+          z-index: 100; }
+          @media screen and (max-width: 769px) {
+            .background-header .header .nav .navbar-inverse .navbar-collapse, .background-header .header .nav .navbar-toggle .navbar-collapse {
+              width: 100vw;
+              position: absolute;
+              background-color: #E8F5E6;
+              -webkit-transition: height 0.2s linear;
+              -o-transition: height 0.2s linear;
+              transition: height 0.2s linear;
+              padding-top: 30px; } }
+          .background-header .header .nav .navbar-inverse .navbar-collapse li, .background-header .header .nav .navbar-toggle .navbar-collapse li {
+            margin-right: 19px; }
+            .background-header .header .nav .navbar-inverse .navbar-collapse li:last-child, .background-header .header .nav .navbar-toggle .navbar-collapse li:last-child {
+              margin-right: 0px; }
+            @media screen and (max-width: 769px) {
+              .background-header .header .nav .navbar-inverse .navbar-collapse li, .background-header .header .nav .navbar-toggle .navbar-collapse li {
+                margin-bottom: 15px;
+                margin-left: 8.3%; } }
+            .background-header .header .nav .navbar-inverse .navbar-collapse li a, .background-header .header .nav .navbar-toggle .navbar-collapse li a {
+              padding: 6px 0;
+              text-decoration: none; }
+              .background-header .header .nav .navbar-inverse .navbar-collapse li a:hover, .background-header .header .nav .navbar-toggle .navbar-collapse li a:hover {
+                border-bottom: 4px solid #138D14;
+                color: inherit; }
+              @media screen and (max-width: 769px) {
+                .background-header .header .nav .navbar-inverse .navbar-collapse li a, .background-header .header .nav .navbar-toggle .navbar-collapse li a {
+                  font-family: 'Roboto', sans-serif;
+                  font-style: normal;
+                  font-weight: 900;
+                  line-height: 37px;
+                  font-size: 20px;
+                  letter-spacing: 0.04em;
+                  color: #203140; }
+                  .background-header .header .nav .navbar-inverse .navbar-collapse li a:hover, .background-header .header .nav .navbar-toggle .navbar-collapse li a:hover {
+                    border-bottom: none; } }
+          .background-header .header .nav .navbar-inverse .navbar-collapse .active, .background-header .header .nav .navbar-toggle .navbar-collapse .active {
+            border-bottom: 4px solid #138D14;
+            color: #203140; }
+            @media screen and (max-width: 769px) {
+              .background-header .header .nav .navbar-inverse .navbar-collapse .active, .background-header .header .nav .navbar-toggle .navbar-collapse .active {
+                border-bottom: none; } }
+          .background-header .header .nav .navbar-inverse .navbar-collapse .lang-list, .background-header .header .nav .navbar-toggle .navbar-collapse .lang-list {
+            padding-top: 70px;
+            position: static; }
+            .background-header .header .nav .navbar-inverse .navbar-collapse .lang-list li, .background-header .header .nav .navbar-toggle .navbar-collapse .lang-list li {
+              float: left;
+              margin-right: 10px !important; }
+              @media screen and (min-width: 769px) {
+                .background-header .header .nav .navbar-inverse .navbar-collapse .lang-list li, .background-header .header .nav .navbar-toggle .navbar-collapse .lang-list li {
+                  margin-right: 10px; } }
+              .background-header .header .nav .navbar-inverse .navbar-collapse .lang-list li a, .background-header .header .nav .navbar-toggle .navbar-collapse .lang-list li a {
+                font-family: 'Fira Sans', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                font-size: 14px;
+                letter-spacing: 0.06em;
+                color: #81888C; }
+                @media screen and (min-width: 769px) {
+                  .background-header .header .nav .navbar-inverse .navbar-collapse .lang-list li a, .background-header .header .nav .navbar-toggle .navbar-collapse .lang-list li a {
+                    font-size: 11px; } }
+                .background-header .header .nav .navbar-inverse .navbar-collapse .lang-list li a:hover, .background-header .header .nav .navbar-toggle .navbar-collapse .lang-list li a:hover {
+                  border: none; }
+                .background-header .header .nav .navbar-inverse .navbar-collapse .lang-list li a:active, .background-header .header .nav .navbar-inverse .navbar-collapse .lang-list li a:focus, .background-header .header .nav .navbar-toggle .navbar-collapse .lang-list li a:active, .background-header .header .nav .navbar-toggle .navbar-collapse .lang-list li a:focus {
+                  color: #203140;
+                  opacity: 1; }
+            @media screen and (min-width: 1200px) {
+              .background-header .header .nav .navbar-inverse .navbar-collapse .lang-list, .background-header .header .nav .navbar-toggle .navbar-collapse .lang-list {
+                position: absolute;
+                top: -130px;
+                right: 25px; } }
+            @media screen and (min-width: 769px) and (max-width: 1199px) {
+              .background-header .header .nav .navbar-inverse .navbar-collapse .lang-list, .background-header .header .nav .navbar-toggle .navbar-collapse .lang-list {
+                position: absolute;
+                top: -130px;
+                right: 10px; } }
+  .background-header .header-text {
+    padding-top: 60px;
+    padding-bottom: 45px; }
+    @media screen and (max-width: 769px) {
+      .background-header .header-text {
+        padding-bottom: 175px;
+        padding-top: 20px; } }
+    .background-header .header-text h1 {
+      position: relative;
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 50px;
+      font-size: 41px;
+      color: #292929; }
+      @media screen and (max-width: 769px) {
+        .background-header .header-text h1 {
+          font-family: 'Open Sans', sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          line-height: 37px;
+          font-size: 30px;
+          color: #292929; } }
+      .background-header .header-text h1::before {
+        position: absolute;
+        content: "";
+        width: 63px;
+        height: 5px;
+        left: 17px;
+        top: -17px;
+        background: #138D14;
+        mix-blend-mode: normal; }
+
+.image-main {
+  position: relative; }
+  .image-main .image {
+    position: absolute;
+    top: -80px;
+    right: 0; }
+    @media screen and (max-width: 769px) {
+      .image-main .image {
+        top: -160px; } }
+
+.text-main {
+  padding-bottom: 100px; }
+  @media screen and (min-width: 769px) {
+    .text-main {
+      padding-top: 62px; } }
+  @media screen and (max-width: 769px) {
+    .text-main {
+      padding-top: 200px;
+      padding-bottom: 30px; } }
+  @media screen and (max-width: 469px) {
+    .text-main {
+      padding-top: 140px; } }
+  @media screen and (max-width: 400px) {
+    .text-main {
+      padding-top: 83px; } }
+  .text-main p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    color: #808080;
+    margin-bottom: 20px; }
+
+.footer {
+  background: #163B17;
+  padding-bottom: 115px; }
+  .footer .footer-left {
+    padding-top: 55px; }
+    @media screen and (max-width: 769px) {
+      .footer .footer-left {
+        padding-top: 15px; } }
+    .footer .footer-left h2 {
+      font-family: 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      font-size: 14px;
+      letter-spacing: 0.06em;
+      color: #FFFFFF; }
+    .footer .footer-left p {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 20px;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      color: #B0BABF; }
+  .footer .footer-center {
+    padding-top: 102px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    color: #B0BABF; }
+    @media screen and (max-width: 769px) {
+      .footer .footer-center {
+        padding-top: 5px; } }
+  .footer .footer-nav {
+    padding-top: 59px; }
+    @media screen and (max-width: 1200px) {
+      .footer .footer-nav {
+        display: none; } }
+    .footer .footer-nav ul li {
+      float: left;
+      margin-right: 18px; }
+      .footer .footer-nav ul li a {
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        font-size: 14px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF; }
+
+.background-cross {
+  background-color: #138D14 !important; }

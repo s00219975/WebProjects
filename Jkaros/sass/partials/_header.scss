@@ -1,0 +1,71 @@
+#header {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  background: #3a3d40;
+  border-bottom: 5px solid #4a4d50;
+  position: relative;
+
+  .layout {
+    width: 960px;
+    height: 90px;
+  }
+
+    .logo-jkaros {
+      width: 90px;
+      height: 90px;
+      display: inline-block;
+      a {
+        width: 88px;
+        height: 32px;
+        float: left;
+      }
+      img {
+        width: 88px;
+        height: 32px;
+        float: left;
+        margin-top: -20px;
+      }
+    }
+    .menu {
+      height: 88px;
+      float: right;
+      }
+      ul {
+        width: 548px;
+        display: block;
+        li {
+          float: left;
+          padding: 0 20px;
+          border-right: 2px solid #292c2d;
+          height: 88px;
+          text-align: center;
+          &:nth-child(1) {
+            border-left: 2px solid #292c2d;
+          }
+          &:hover {
+            color: #698394;
+            background-color: #35373a;
+
+          }
+        }
+      }
+        // .li-1 {width: 70px;  height: 88px; text-align: center;}
+        // .li-2 {width: 85px;  height: 88px; text-align: center;}
+        // .li-3 {width: 100px; height: 88px; text-align: center;}
+        // .li-4 {width: 75px;  height: 88px; text-align: center;}
+        // .li-5 {width: 65px;  height: 88px; text-align: center;}
+        // .li-6 {width: 85px;  height: 88px; text-align: center;}
+          a {
+            display: block;
+            font-weight: bold;
+            font-size: 12px;
+            color: #c1c1c1;
+            padding-top: 57px;
+            text-transform: uppercase;
+            height: 88px;
+
+          }
+
+
+}

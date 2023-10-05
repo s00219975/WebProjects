@@ -1,0 +1,39 @@
+
+.img-full-uslugi {
+  height: 225px;
+  position: relative;
+  background: url(./../images/computer.png) no-repeat #0D79D4;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  opacity: 0.8;
+  .container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    @media screen and (max-width: 769px) {
+      left: 0;
+      transform: translateX(0%);
+    }
+    .text-image-uslugi {
+      h1 {
+        font-family: 'Fira Sans',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 80px;
+        font-size: 70px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        @media screen and (max-width: 992px) {
+          font-family: 'Open Sans', sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          line-height: 49px;
+          font-size: 40px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}

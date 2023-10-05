@@ -1,0 +1,31 @@
+.img-full-uslugi {
+  height: 225px;
+  position: relative;
+  background: url(./../images/computer.png) no-repeat #0D79D4;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  opacity: 0.8; }
+  .img-full-uslugi .container {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 50px; }
+    .img-full-uslugi .container .text-image-uslugi h1 {
+      font-family: 'Fira Sans',sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 80px;
+      font-size: 70px;
+      letter-spacing: -0.02em;
+      color: #FFFFFF; }
+      @media screen and (max-width: 992px) {
+        .img-full-uslugi .container .text-image-uslugi h1 {
+          font-family: 'Open Sans', sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          line-height: 49px;
+          font-size: 40px;
+          color: #FFFFFF; } }

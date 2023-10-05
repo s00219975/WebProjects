@@ -1,0 +1,44 @@
+
+/* menuFive */
+.menuFive{
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.menuFive span{
+  background-color:black;
+  position: absolute;
+  border-radius: 2px;
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+  width:100%;
+  height: 4px;
+  transition-duration: 500ms
+}
+.menuFive span:nth-child(1){
+  top:0px;
+  left: 0px;
+}
+.menuFive span:nth-child(2){
+  top:9px;
+  left: 0px;
+}
+.menuFive span:nth-child(3){
+  bottom:9px;
+  left: 0px;
+}
+
+.clickMenuFive span:nth-child(1){
+  transform: rotate(45deg);
+  top: 10px;
+
+}
+.clickMenuFive span:nth-child(2){
+  transform: scale(0.01);
+  transition: scale 0.01s ease-in-out;
+
+}
+.clickMenuFive span:nth-child(3){
+  transform: rotate(-45deg);
+  top: 10px;
+}

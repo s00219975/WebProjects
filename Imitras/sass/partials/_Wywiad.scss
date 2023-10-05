@@ -1,0 +1,81 @@
+
+.img-full-wywiad {
+  height: 225px;
+  position: relative;
+  background: url(./../images/graph.png) no-repeat #0D79D4;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  opacity: 0.8;
+
+  .container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    @media screen and (max-width: 769px) {
+      left: 0;
+      transform: translateX(0%);
+    }
+    .text-image-wywiad {
+      h1 {
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 80px;
+        font-size: 70px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        @media screen and (max-width: 992px) {
+          font-family: 'Open Sans', sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          line-height: 49px;
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+.main {
+  .info {
+    padding-top: 65px;
+    .info-left {
+      padding-top: 4px;
+    }
+    .info-right {
+      h2 {
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 33px;
+        font-size: 19px;
+        letter-spacing: 0.04em;
+        color: #203140;
+        margin-bottom: 10px;
+        @media screen and (max-width: 769px) {
+          margin-bottom: 0;
+        }
+      }
+      p {
+        font-family: 'Fira Sans',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+        font-size: 13px;
+        letter-spacing: 0.03em;
+        color: #81888C;
+        margin-bottom: 30px;
+        @media screen and (max-width: 769px) {
+            margin-bottom: 20px;
+        }
+      }
+      @media screen and (max-width: 769px) {
+        padding-top: 20px;
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      padding-top: 30px;
+    }
+  }
+}

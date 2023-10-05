@@ -1,0 +1,19 @@
+.text-main-wywiad {
+padding-bottom: 80px;
+@media screen and (min-width: 769px) {
+  padding-top: 30px;
+}
+@media screen and (max-width: 769px) {
+  padding-bottom: 25px;
+}
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    color: #808080;
+    margin-bottom: 20px;
+  }
+}

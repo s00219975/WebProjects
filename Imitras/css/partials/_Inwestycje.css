@@ -1,0 +1,39 @@
+.img-full-inwest {
+  height: 225px;
+  position: relative;
+  background: url(./../images/computer.png) no-repeat #0D79D4;
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: multiply;
+  opacity: 0.8; }
+  .img-full-inwest .container {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 50px; }
+    .img-full-inwest .container .text-image-inwest h1 {
+      font-family: 'Fira Sans',sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 80px;
+      font-size: 70px;
+      letter-spacing: -0.02em;
+      color: #FFFFFF; }
+      @media screen and (max-width: 992px) {
+        .img-full-inwest .container .text-image-inwest h1 {
+          font-family: 'Open Sans', sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          line-height: 49px;
+          font-size: 40px;
+          color: #FFFFFF; } }
+
+.main {
+  margin-top: 8px;
+  position: relative;
+  padding-bottom: 70px; }
+  @media screen and (max-width: 769px) {
+    .main {
+      padding-bottom: 25px; } }
